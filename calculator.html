@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculater</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <header>Calculator</header>
+    <br>
+
+    <body>
+        <input type="text" id="firstNumber" >
+        <input type="text" id="secondNumber" >
+        <br>
+        <br>
+        <button id = "bb" onclick="getSum()">+</button>.. 
+        <button id = "bb" onclick="getMinus()">-</button>
+        <br><br> 
+        <button id = "bb" onclick="getmultiply()">x</button>.. 
+        <button id = "bb" onclick="getDivide()">÷</button> 
+        <br><br>
+        <div id="output"></div>
+
+        
+
+        <script>
+            var firstNumber = document.getElementById("firstNumber");
+            var secondNumber = document.getElementById("secondNumber");
+            var output = document.getElementById("output");
+
+            function getSum(){
+                let sum = parseInt(firstNumber.value) + parseInt(secondNumber.value);
+                showResult(sum);
+            }
+            function getMinus(){
+                let sum = parseInt(firstNumber.value) - parseInt(secondNumber.value);
+                showResult(sum);
+            }
+            function getmultiply(){
+                let sum = parseInt(firstNumber.value) * parseInt(secondNumber.value);
+                showResult(sum);
+            }
+            function getDivide(){
+                let sum = parseInt(firstNumber.value) / parseInt(secondNumber.value);
+                showResult(sum);
+            }
+
+            function showResult(result){
+                output.innerHTML = "Answer: "+ result;
+            }
+        </script>
+    </body>
+</html>

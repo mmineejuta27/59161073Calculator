@@ -1,0 +1,43 @@
+header {
+   	border-bottom: none;
+    color: #000000;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 30px;
+    vertical-align: middle;
+    padding-top: 10px;
+    background-color: LightGray;
+    height: 30px ;
+    width: 150px ;
+    border: 3px solid Black;
+    padding: 20px;
+    margin-left: 570px;
+
+}
+
+body {
+	background-color: tomato;
+	text-align: center;
+}
+button{
+	
+	color: white;
+	background-color: #001f4d ;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	border-radius: 12px;
+	text-align: center;
+}
+input{
+    border: 3px solid red;
+	font-size: 20;
+	height: 30px ;
+	width: 200px ;
+}
+div{
+	font-size: 30px ;
+	color: white ;
+	text-align: center;
+
+}
